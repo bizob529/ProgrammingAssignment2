@@ -18,7 +18,7 @@
 #Answer #1: This function makeCacheMatrix will create a special "matrix"
 #object that can cache its inverse.
 
-makeCacheMatrix <- function (){
+makeCacheMatrix <- function (x=matrix()){
         #create empty vector in which to store cached inverse matrix
         inv <- NULL
         #set the value of the matrix to x and reset inv
